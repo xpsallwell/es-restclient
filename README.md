@@ -2,11 +2,11 @@
 对elasticsearch-rest-client二次开发工具类，新增加freemarker的支持。可以方便的结合spring使用。
 
 配置示例：
- <!-- ES搜索引擎配置 
+ ES搜索引擎配置 
  #elasticsearch
 elasticsearch.hosts=172.16.103.13:9200;172.16.103.16:9200
 elasticsearch.connectTimeout=6000
--->
+
     <bean id="restClientConfig" class="com.xps.es.restclient.RestClientConfig" >
          <constructor-arg index="0">
              <props>
