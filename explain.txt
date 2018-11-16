@@ -1,0 +1,12 @@
+Camel Java Router Project
+=========================
+
+1.0.0
+不包含template功能
+1.1.0
+新增加freemarker的template功能
+需要关联的jar:
+spring-core.jar
+freemarker.jar
+dom4j.jar
+
